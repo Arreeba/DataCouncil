@@ -14,9 +14,22 @@ Each agent performs a dedicated responsibility and passes its output to the next
 
 ---
 
-##  System Architecture
+## System Architecture
+![Architecture](architecture.png)
 
-![Architecture](images/architecture.png)
+---
+
+## Screenshots
+
+### Homepage
+![Homepage](screenshots/homepage.png)
+
+### Validation Tab — Agent Disagreement in Action
+![Validation](screenshots/validation.png)
+
+### Baseline Comparison — Multi-Agent vs Single Agent
+![Comparison](screenshots/comparison.png)
+
 
 ---
 
@@ -102,24 +115,16 @@ This satisfies the **Track 3: Agent Society** requirement of demonstrating measu
 
 ---
 
-##  Project Structure
-
+## Project Structure
 ```text
 DataCouncil/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── LICENSE
-│
-├── images/
-│   └── architecture.png
-│
-├── outputs/
-│   └── datacouncil_outputs.json
-│
-└── sample_data/
-    └── sample_dataset.csv
+├── app.py                 ← Streamlit application
+├── requirements.txt       ← Python dependencies
+├── README.md              
+├── LICENSE                ← MIT License
+├── notebook.ipynb         ← Development notebook
+├── architecture.png       ← System architecture diagram
+└── sample_dataset.csv     ← Sample CSV for testing
 ```
 
 ---
