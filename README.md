@@ -1,4 +1,4 @@
-# 🤖 DataCouncil
+# DataCouncil
 
 **DataCouncil** is a multi-agent AI analytics platform that transforms raw CSV datasets into actionable business insights through collaborative AI agents.
 
@@ -6,7 +6,7 @@ Built for **Qwen Cloud AI Hackathon 2026 – Track 3: Agent Society**, DataCounc
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Instead of assigning every task to one AI model, DataCouncil decomposes the workflow into multiple specialized agents.
 
@@ -14,15 +14,15 @@ Each agent performs a dedicated responsibility and passes its output to the next
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ![Architecture](images/architecture.png)
 
 ---
 
-## 🤖 Multi-Agent Workflow
+##  Multi-Agent Workflow
 
-### 🔍 Data Quality Agent
+###  Data Quality Agent
 - Detects missing values
 - Identifies outliers
 - Reviews dataset quality
@@ -30,14 +30,14 @@ Each agent performs a dedicated responsibility and passes its output to the next
 
 ↓
 
-### 📊 Data Analyst Agent
+### Data Analyst Agent
 - Generates evidence-backed business insights
 - Explains why each insight matters
 - Uses the quality report as context
 
 ↓
 
-### ⚖️ Insight Validator Agent
+###  Insight Validator Agent
 - Independently reviews every analyst insight
 - Labels each insight as:
   - ✅ CONFIRMED
@@ -46,21 +46,21 @@ Each agent performs a dedicated responsibility and passes its output to the next
 
 ↓
 
-### 📈 Visualization Agent
+###  Visualization Agent
 - Selects the most suitable visualization
 - Recommends chart type
 - Chooses appropriate dataset columns
 
 ↓
 
-### 📝 Report Writer Agent
+###  Report Writer Agent
 - Produces an executive summary
 - Uses only validated insights
 - Summarizes findings for decision-makers
 
 ---
 
-## 📊 Single-Agent Baseline
+##  Single-Agent Baseline
 
 To demonstrate the value of collaborative AI, DataCouncil also runs the same dataset through a **single general-purpose agent**.
 
@@ -76,7 +76,7 @@ This satisfies the **Track 3: Agent Society** requirement of demonstrating measu
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Multi-agent collaboration using CrewAI
 - Sequential task decomposition
@@ -91,7 +91,7 @@ This satisfies the **Track 3: Agent Society** requirement of demonstrating measu
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - CrewAI
@@ -102,7 +102,7 @@ This satisfies the **Track 3: Agent Society** requirement of demonstrating measu
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 DataCouncil/
@@ -124,7 +124,7 @@ DataCouncil/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 Clone the repository
 
@@ -142,7 +142,7 @@ streamlit run app.py
 
 ---
 
-## 🔑 API Key
+##  API Key
 
 The application requires a valid **Qwen API Key**.
 
@@ -152,7 +152,7 @@ Enter your API key in the Streamlit sidebar before running the analysis.
 
 ---
 
-## 📂 Sample Dataset
+##  Sample Dataset
 
 A sample dataset is included  for demonstration purposes.
 
@@ -160,7 +160,7 @@ You may also upload your own CSV datasets directly through the application.
 
 ---
 
-## 📸 Application Workflow
+##  Application Workflow
 
 1. Upload a CSV dataset
 2. Click **Run DataCouncil Analysis**
@@ -175,7 +175,7 @@ You may also upload your own CSV datasets directly through the application.
 
 ---
 
-## 🎯 Track 3 Requirements Addressed
+##  Track 3 Requirements Addressed
 
 ✅ Multi-agent collaboration
 
@@ -191,13 +191,13 @@ You may also upload your own CSV datasets directly through the application.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Developed For
+##  Developed For
 
 **Qwen Cloud AI Hackathon 2026**
 
