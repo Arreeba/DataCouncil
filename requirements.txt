@@ -1,0 +1,8 @@
+crewai
+litellm
+openai
+pandas
+plotly
+streamlit
+pyngrok
+nest_asyncio
