@@ -15,7 +15,7 @@ Each agent performs a dedicated responsibility and passes its output to the next
 ---
 
 ## System Architecture
-![Architecture](architecture.png)
+[View Architecture Diagram](architecture.png)
 
 ---
 
