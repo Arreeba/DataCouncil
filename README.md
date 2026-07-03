@@ -119,15 +119,21 @@ This satisfies the **Track 3: Agent Society** requirement of demonstrating measu
 ```text
 DataCouncil/
 ├── app.py                 ← Streamlit application
+├── architecture.png       ← System architecture diagram
+├── notebook.ipynb         ← Development notebook
 ├── requirements.txt       ← Python dependencies
+├── sample_dataset.csv     ← Sample CSV for testing
 ├── README.md              
 ├── LICENSE                ← MIT License
-├── notebook.ipynb         ← Development notebook
-├── architecture.png       ← System architecture diagram
-└── sample_dataset.csv     ← Sample CSV for testing
+└── screenshots/           ← App screenshots (7 screens)
+    ├── Screenshot_1.png   ← Homepage
+    ├── Screenshot_2.png
+    ├── Screenshot_3.png
+    ├── Screenshot_4.png   ← Validation tab
+    ├── Screenshot_5.png
+    ├── Screenshot_6.png
+    └── Screenshot_7.png   ← Baseline comparison
 ```
-
----
 
 ##  Installation
 
