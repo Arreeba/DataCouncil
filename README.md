@@ -22,13 +22,13 @@ Each agent performs a dedicated responsibility and passes its output to the next
 ## Screenshots
 
 ### Homepage
-![Homepage](screenshots/Screenshot_1.png)
+[View Homepage](screenshots/Screenshot_1.png)
 
 ### Validation Tab — Agent Disagreement in Action
-![Validation](screenshots/Screenshot_4.png)
+[View Validation Tab](screenshots/Screenshot_4.png)
 
 ### Baseline Comparison — Multi-Agent vs Single Agent
-![Comparison](screenshots/Screenshot_7.png)
+[View Baseline Comparison](screenshots/Screenshot_7.png)
 
 
 ---
